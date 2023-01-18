@@ -1,0 +1,27 @@
+a:link {
+    text-decoration: none;
+}
+.card-body{
+    text-align: left !important;
+}
+.no-margin-top-bottom{
+    margin-bottom:0;margin-top: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #9843f5 !important;
+}
+.carousel-indicators .borderR
+{
+    /*color: #e11717 !important;*/
+    border: 1px solid #9843f5 !important;
+}
+.carousel-item{
+    padding-bottom: 20px;
+}
+.list-group-item:hover{
+    background-color: #faeca8 !important;
+}
+.list-group-item{
+    border: none !important;
+}
