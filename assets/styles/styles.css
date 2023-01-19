@@ -19,9 +19,29 @@ a:link {
 .carousel-item{
     padding-bottom: 20px;
 }
-.list-group-item:hover{
-    background-color: #faeca8 !important;
+.list-group-item{
+    padding-left: 0 !important;
 }
+.list-group-item:hover{
+    background-color: yellow !important;
+
+}
+.list-group-item i{
+    background-color: #f5f0ff !important;
+    color: purple;
+}
+
 .list-group-item{
     border: none !important;
+}
+.small-hover:hover{
+    background-color: #3bbd3b;
+    color: white;
+}
+.title-text{
+    color: #9843f5;
+}
+
+hr{
+    border: 1.5px solid;
 }
