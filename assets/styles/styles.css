@@ -59,10 +59,68 @@ li{
 .faq-title-text{
     color: #f5bd43;
 }
-@media (max-width: 500px) {
-    .logo-width{
-        max-width: 150px;
+
+.logo-width{
+        max-width: 200px;
         margin-right: 0;
         margin-left: 0;
-    }
+}
+
+.sign-up-button-margin{
+    margin-left: 10px;
+}
+.sign-btn{
+    color: #9843f5;border:1px solid #9843f5;background-color: #f5f0ff
+}
+.sign-btn:hover{
+    color: #f5f0ff!important;
+    background-color: #9843f5;
+}
+.login-btn{
+    color: #406f58;
+    background-color:#f5f0ff;
+    border:1px solid green;
+}
+.login-btn:hover{
+    color: white!important;
+    background-color: #406f58;
+}
+.carousel-img-height{
+    max-height: 80vh;object-fit: cover;
+}
+.main-icon-style{
+    font-size: 80px; padding: 10px 0 20px 0 !important;
+}
+.hr-w{
+    width: 8%!important
+}
+.news-container-margin{
+    margin:0 10% 5% 10%
+}
+.org-bg-color{
+    background-color: #f5f0ff
+}
+.about-sction-bg{
+    background:  url('../images/aboutbg.png') round;
+}
+.delivery-section-bg{
+    background:  url('../images/bg.png') round;
+}
+.delivery-section-card-margin{
+    max-width:45rem;margin-top: -10%
+}
+.delivery-card-column{
+    border-left: 4px solid rgba(80,80,84,0.65)
+}
+.btn-go-top{
+    margin-top: -10%;margin-left: 4%
+}
+.footer-bg{
+    background: url('../images/footerbg.png') round;margin-bottom: 0px
+}
+.bg-footer-color{
+    background-color: #406f58
+}
+.last-footer-bg{
+    background-color: #20432f
 }
