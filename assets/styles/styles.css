@@ -59,3 +59,10 @@ li{
 .faq-title-text{
     color: #f5bd43;
 }
+@media (max-width: 500px) {
+    .logo-width{
+        max-width: 150px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
