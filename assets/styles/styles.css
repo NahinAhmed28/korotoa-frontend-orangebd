@@ -23,7 +23,7 @@ a:link {
     padding-left: 0 !important;
 }
 .list-group-item:hover{
-    background-color: yellow !important;
+    background-color: #f5cc27 !important;
 
 }
 .list-group-item i{
@@ -51,4 +51,11 @@ li{
 .padding-left{
     padding-left: 10%;
     padding-right: 10%
+}
+.bg-purple{
+    background: #9843f5;
+    border: #9843f5;
+}
+.faq-title-text{
+    color: #f5bd43;
 }
