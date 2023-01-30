@@ -45,3 +45,10 @@ a:link {
 hr{
     border: 1.5px solid;
 }
+li{
+    list-style-type: none;
+}
+.padding-left{
+    padding-left: 10%;
+    padding-right: 10%
+}
