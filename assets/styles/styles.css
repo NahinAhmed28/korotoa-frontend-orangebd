@@ -122,7 +122,7 @@ li{
     background: url('../images/footerbg.png') round;margin-bottom: 0px
 }
 .bg-footer-color{
-    background-color: #406f58;
+    background-color: rgba(64, 111, 88, 0.9);
     background-size: 50%;
 }
 .last-footer-bg{
@@ -154,4 +154,7 @@ li{
 }
 .link-color{
     color: #9843f5;
+}
+.footer-hr-opacity{
+    opacity: 1!important;
 }
