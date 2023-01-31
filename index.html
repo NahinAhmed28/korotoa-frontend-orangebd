@@ -21,19 +21,28 @@
 <body>
 
 <header class="p-1 bg-dark text-white">
-    <div class="container">
-        <div class="d-flex flex-wrap align-items-right justify-content-right justify-content-lg-end  ">
-<!--            <a href="/" class="d-flex align-items-right mb-lg-0 text-white text-decoration-none">-->
-<!--                <h1 class="logo"><a href="index.html">PortFolio</a></h1>-->
-<!--            </a>-->
+    <div class="container-fluid mx-5">
+        <div class="row">
+            <div class="col-6 text-start">
+                <ul class="nav">
+                    <li><a href="#" class="nav-link px-2 text-white"> <i class="bi bi-phone"></i> 01713-228 475,  01713-228 419</a></li>
+                </ul>
+            </div>
 
-            <ul class="nav col-12 justify-content-right ">
-                <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            <div class="col-6 text-end">
+              <ul class="nav text-end" >
+                <li class="text-end"><a href="#" class="nav-link px-2 text-white text-end"><i class="bi bi-envelope" ></i></a></li>
+                <li class="text-end"><a href="#" class="nav-link text-white text-end" style="padding-left:0!important;">info@kcs-bd.com</a></li>
+                <li class="text-end"><a href="#" class="nav-link text-white text-end" style="padding-left:0!important;border-right: 1px solid rgba(255,255,255,0.77)!important;margin-top: 14px"></a></li>
+                <li class="text-end"><a href="#" class="nav-link px-2 text-white text-end"><i class="bi bi-facebook"></i></a></li>
+                <li class="text-end"><a href="#" class="nav-link px-2 text-white text-end"><i class="bi bi-twitter"></i></a></li>
+                <li class="text-end"><a href="#" class="nav-link px-2 text-white wifi-rotate-45 text-end"><i class="bi bi-wifi "></i></a></li>
+                <li class="text-end"><a href="#" class="nav-link px-2 text-white text-end"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vimeo" viewBox="0 0 16 16">
+                    <path d="M15.992 4.204c-.071 1.556-1.158 3.687-3.262 6.393-2.175 2.829-4.016 4.243-5.522 4.243-.933 0-1.722-.861-2.367-2.583L3.55 7.523C3.07 5.8 2.556 4.94 2.007 4.94c-.118 0-.537.253-1.254.754L0 4.724a209.56 209.56 0 0 0 2.334-2.081c1.054-.91 1.845-1.388 2.373-1.437 1.243-.123 2.01.728 2.298 2.553.31 1.968.526 3.19.646 3.666.36 1.631.756 2.446 1.186 2.445.334 0 .836-.53 1.508-1.587.671-1.058 1.03-1.863 1.077-2.415.096-.913-.263-1.37-1.077-1.37a3.022 3.022 0 0 0-1.185.261c.789-2.573 2.291-3.825 4.508-3.756 1.644.05 2.419 1.117 2.324 3.2z"/>
+                </svg></a></li>
+
             </ul>
+            </div>
         </div>
     </div>
 </header>
@@ -41,7 +50,7 @@
 <!--Navbar Start-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid mx-5">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand " href="#">
             <img src="assets/images/logo.png" class="d-block w-100 py-0 logo-width" alt="...">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,29 +59,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto me-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link px-3 active" aria-current="page" href="#">Home</a>
+
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link px-3" href="#">About</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link px-3" href="#">Services</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link px-3 " href="#" tabindex="-1" aria-disabled="true">Cost</a>
                 </li>
-                <li class="nav-item ml-auto mr-2">
-                    <form class="form-inline my-2 my-lg-0">
-                        <a class="nav-link btn login-btn" href="#" tabindex="-1" aria-disabled="true">
-                           Login </a>
-                    </form>
+                <li class="nav-item mx-auto">
+                    <a class="nav-link px-3 " href="#" tabindex="-1" aria-disabled="true">Contact</a>
                 </li>
-                <li class="nav-item mr-auto ml-2 sign-up-button-margin" >
-                        <form class="form-inline my-2 my-lg-0">
-                                <a class="nav-link btn sign-btn"  href="#" tabindex="-1" aria-disabled="true">
-                               Sign Up </a>
-                        </form>
+                <li class="nav-item mx-auto">
+                    <a class="btn btn-outline-success " href="#" tabindex="-1" aria-disabled="true">Tracking</a>
                 </li>
+                <li class="nav-item mx-2">
+                    <a class="btn  sign-btn" href="#" tabindex="-1" aria-disabled="true">Login </a>
+                </li>
+
             </ul>
         </div>
     </div>
@@ -149,15 +157,18 @@
     <div class="text-center">
         <h3 class="title-text"> Our Services</h3>
         <hr class="me-auto ms-auto hr-w" >
-        <p> Our Services </p>
+        <p class="text-center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the indus
+        </p>
     </div>
     <div class="row justify-content-center mx-5">
         <div class="col-sm-4 my-4">
             <div class="card text-center shadow-sm">
                 <img class="card-img-top w-100" src="assets/images/service1.png" alt="img">
                 <div class="card-body">
-                    <h5 class="card-title title-text">Card title</h5>
-                    <p>  card body</p>
+                    <h5 class="card-title title-text">Warehousing Services</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the indus</p>
                      <a href="#" class="btn">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
@@ -167,9 +178,10 @@
             <div class="card text-center shadow-sm">
                 <img class="card-img-top w-100" src="assets/images/service2.png" alt="img">
                 <div class="card-body">
-                    <h5 class="card-title title-text">Card title</h5>
-                    <p>  card body</p>
-                     <a href="#" class="btn ">Read More <i class="bi bi-arrow-right"></i></a>
+                    <h5 class="card-title title-text">Road Freight</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the indus</p>
+                     <a href="#" class="btn text-dark">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -178,8 +190,9 @@
             <div class="card text-center shadow-sm">
                 <img class="card-img-top w-100" src="assets/images/service3.png" alt="img">
                 <div class="card-body" >
-                    <h5 class="card-title title-text">Card title</h5>
-                    <p>  card body</p>
+                    <h5 class="card-title title-text">Consulting Storage</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the indus</p>
                      <a href="#" class="btn ">Read More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
@@ -194,14 +207,13 @@
 
         <div class="col-md-6 text" >
             <div class="padding-left py-5">
-                <hr class="me-auto ms-1 w-25 text-warning">
+                <hr class="me-auto ms-1 about-design-hr">
                 <h2 class="text-white pb-3">Why Choose Us <br></h2>
                 <ul class="list-group ml-5" >
-                    <li class="bg-transparent text-white pb-1 "><i class="bi bi-brightness-high-fill text-warning"></i> Cras justo odio</li>
-                    <li class="bg-transparent text-white pb-1"><i class="bi bi-brightness-high-fill text-warning"></i> Dapibus ac facilisis in</li>
-                    <li class="bg-transparent text-white pb-1"><i class="bi bi-brightness-high-fill text-warning"></i> Morbi leo risus</li>
-                    <li class="bg-transparent text-white pb-1"><i class="bi bi-brightness-high-fill text-warning"></i> Porta ac consectetur ac</li>
-                    <li class="bg-transparent text-white pb-1"><i class="bi bi-brightness-high-fill text-warning"></i> Vestibulum at eros</li>
+                    <li class="bg-transparent text-white fw-bold pb-1"><i class="bi bi-brightness-high-fill text-warning" style="padding-right: 10px!important;"></i> Our Speed</li>
+                    <li class="bg-transparent text-white fw-bold pb-1"><i class="bi bi-brightness-high-fill text-warning" style="padding-right: 10px!important;"></i> Relaiability</li>
+                    <li class="bg-transparent text-white fw-bold pb-1"><i class="bi bi-brightness-high-fill text-warning" style="padding-right: 10px!important;"></i> Low Cost</li>
+                    <li class="bg-transparent text-white fw-bold pb-1"><i class="bi bi-brightness-high-fill text-warning" style="padding-right: 10px!important;"></i> Simplicity</li>
                 </ul>
             </div>
             <div class="row justify-content-center pb-4">
@@ -226,7 +238,7 @@
 
         <div class="col-md-6 p-5"  >
             <div class="ms-5">
-                <hr class="me-auto ms-1 w-25 text-warning">
+                <hr class="me-auto ms-1 about-design-hr">
                 <h2 class="text-white mb-3">Presidents Message</h2>
                 <img class="card-img-top w-25" src="assets/images/mesage.png" alt="img" >
             </div>
@@ -237,19 +249,21 @@
 <!--Angel Design End-->
 
 <!--Map paragraph Start-->
-<div class="container-fluid px-3 my-3 py-5">
+<div class="container-fluid px-3 my-3 py-5 me-3">
     <div class="row justify-content-center mx-5 ">
         <div class="col-md-5 p-3 shadow-sm">
             <img class="card-img-top w-100" src="assets/images/map.png" alt="img" >
         </div>
         <div class="col-md-7 p-3 ">
             <hr class="me-auto ms-1 w-25  mt-0 text-success pb-1">
-            <h3 class="card-title text-success">Card title Card title  <br>
-                Card title Card   <br>
-                Card title
-            </h3>
-            <p> card body</p>
-            <a href="#" class="btn btn-success">Read More</a>
+            <p class="h2">KCS provides logistics support
+                in all 64 districts and 493
+                sub districts across
+                Bangladesh
+            </p>
+            <p class="my-3">Whatever your logistics need, we guarantee the fastest service
+                all over the country</p>
+            <a href="#" class="btn btn-success px-3">Check Our Coverage Area</a>
         </div>
     </div>
 </div>
@@ -259,32 +273,35 @@
 <div class="container-fluid mb-5" >
     <div class="row justify-content-center delivery-section-bg" >
 
-        <div class="col-md-4 ">
-            <div class="padding-left w-75 py-5">
-                <hr class="me-auto ms-1 w-25 text-white">
-                <h4 class="text-white pb-3">Notice<br></h4>
-               <p class="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <hr class="me-1 ms-auto w-25 text-white">
+        <div class="col-md-5 ">
+            <div class="padding-left py-5" style="width: 95%!important;">
+                <div class="corner-border p-2">
+                    <h4 class="text-white p-3">Notice<br></h4>
+                   <p class="text-white justify px-3"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
             </div>
         </div>
 
-        <div class="col-md-8 p-5 ">
+        <div class="col-md-7 p-5 ">
             <div class="card delivery-section-card-margin" >
-                <div class="card-body">
-                    <h3 class="card-title title-text mb-3">Delivery Calculator</h3>
-                    <h5 class="card-subtitle mb-2 ">Plan your shipments with ease as you estimate delivery
-                        costs beforehand</h5>
+                <div class="card-body ps-5 pt-4">
+                    <h3 class="card-title card-title-text mb-3 fw-bold">Delivery Calculator</h3>
+                    <p class=" mb-3" style="font-size: 17px">Plan your shipments with ease as you estimate delivery
+                        costs beforehand</p>
                     <div class="row">
                         <div class="col-md-6 mb-2 " >
-                            <h6 class="card-subtitle mb-2 " >weight</h6>
+                            <h6 class="card-subtitle mb-2 " >Weight</h6>
                             <div class="input-group input-group-sm mb-3">
                                 <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                             </div>
                         </div>
                         <div class="col-md-6 mb-2 ">
-                            <h6 class="card-subtitle mb-2" >Selling price Of the product</h6>
+                            <h6 class="card-subtitle mb-2" >Selling price of the product</h6>
                             <div class="input-group input-group-sm mb-3">
                                 <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                             </div>
@@ -302,10 +319,10 @@
                             </div>
                         </div>
                         <div class="col-md-12 mt-2 text-center">
-                            <button href="#" class="btn btn-primary bg-purple" >Calculate Price</button>
+                            <button href="#" class="btn btn-primary bg-purple px-5 py-2" >Calculate Price</button>
                         </div>
                         <div class="col-md-12 mt-1 mb-2 text-center">
-                            Check Out<a href="#" class="card-link">Total Price Listing</a>
+                            Check Out <a href="#" class="card-link link-color">Total Price Listing</a>
                         </div>
                     </div>
 
@@ -320,8 +337,8 @@
 <!--Latest News Start-->
 <div class="container-fluid">
     <div class="text-center">
-        <p> Latest News </p>
-        <h3 class="title-text">Read Our Latest News</h3>
+        <p class="fw-bold"> Explore Recent Works </p>
+        <h3 class="text-success fw-bold">Read Our Latest News</h3>
         <hr class="me-auto ms-auto mb-4 hr-w" >
     </div>
     <div class="row justify-content-center news-container-margin" >
@@ -372,7 +389,7 @@
 <!--Organization Start-->
 <div class="container-fluid org-bg-color" >
     <div class="text-center pt-4">
-        <p> Organizations </p>
+        <p class="fw-bold"> Organizations </p>
         <h3 class="title-text"> Our Associate Organizations</h3>
     </div>
 
@@ -493,29 +510,29 @@
         <div class="col-sm-6 my-4 ">
             <div class="row">
                 <div class="col-sm-6 bg-footer-color">
-                    <h5 class="text-white">About KCS</h5>
-                    <p> card body</p>
+                    <h4 class="text-white">About KCS</h4>
+                    <p class="text-light">Karatoa Courier Service (KCS) created its market by providing door to door important documents,
+                        parcel delivery, business goods, commodities and supplementary within the shortest possible time.
+                        Karatoa Courier Service was always ahead of everyone, both in terms of market share and quality of service. </p>
                 </div>
             </div>
         </div>
         <div class="col-sm-6 my-4 ">
             <div class="row">
                 <div class="col-sm-6 ">
-                    <h2 class="text-white bg-footer-color" >Our Services  <br>
-                        Courier Service
-                        Parcel Service
-                        Value Decleared
-                        E-com service
-                        Corp. Credit Service
-                    </h2>
-                    <p> card body</p>
+                    <h4 class="text-white bg-footer-color" >Our Services</h4>
+                    <ul class="text-light ps-0">
+                       <li class="mb-1"> <i class="bi bi-square-fill text-light me-2"></i> Courier Service</li>
+                       <li class="mb-1"> <i class="bi bi-square-fill text-light me-2"></i> Parcel Service</li>
+                       <li class="mb-1"> <i class="bi bi-square-fill text-light me-2"></i> Value Decleared</li>
+                       <li class="mb-1"> <i class="bi bi-square-fill text-light me-2"></i> E-com service</li>
+                       <li class="mb-1"> <i class="bi bi-square-fill text-light me-2"></i> Corp. Credit Service</li></ul>
                 </div>
                 <div class="col-sm-6 ">
-                    <h2 class="text-white bg-footer-color" >Card title Card title  <br>
-                        Card title Card   <br>
-                        Card title
-                    </h2>
-                    <p> card body</p>
+                    <h2 class="text-white bg-footer-color" >How To Reach Us<br></h2>
+                    <p class="text-light"><span class="fw-bold">Head Office</span> <br>
+                        Shohid Abdul Jabbar Sarak, Joleswaritola, Bogura.
+                        01713-228475, 01713-228419 </p>
                 </div>
             </div>
         </div>
@@ -528,11 +545,11 @@
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
             </a>
-            <span class="text-white">© 2021 Company, Inc</span>
+            <span class="text-white">Copyright © 2022 KCS, All Rights Reserved</span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-white" href="#" > item 1 organization name</a></li>
+            <li class="ms-3"><a class="text-white" href="#" >Developed By :  <span class="text-warning">Orangebd</span></a></li>
         </ul>
     </footer>
 </div>
